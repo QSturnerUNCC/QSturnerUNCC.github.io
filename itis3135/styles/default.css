@@ -38,7 +38,51 @@ figcaption
     font-style: italic;
 }
 
+nav 
+{
+    text-align: center;
+}
 
+.table-body 
+{
+    width: 750px;
+    margin: 0 auto;
+}
 
+table
+{
+    border-collapse: collapse;
+    margin: 20px;
+}
 
+thead
+{
+    background-color: #00b825;
+}
 
+th, td 
+{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+tbody tr:nth-child(even) td
+{
+    background-color: white;
+}
+tbody tr:nth-child(odd) td {
+    background-color: #cccccc;
+}
+
+.total-col 
+{
+    text-align: center;
+    background-color: white;
+}
+
+.center
+{
+    text-align: center;
+}
