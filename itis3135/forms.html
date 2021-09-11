@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles/default.css" rel="stylesheet" type="text/css">
+        <title>Forms in HTML</title>
+    </head>
+    <body>
+        <header>
+            <h1>Forms in HTML</h1>
+        </header>
+        <nav>
+            <a href="Introduction">Introduction</a>
+            ||
+            <a href="Tables">Tables</a>
+        </nav>
+
+        <main>
+            <form action="#">
+                <label class="bold" for="name">Name:</label>
+                <input type="text" id="name" placeholder="Type here" required><br><br>
+                <label class="bold" for="age">Age:</label>
+                <input type="text" id="age" size="3px" min="1" max="120" required><br><br>
+                <label class="bold" for="cardType">Card Type:</label>
+                <select name="cardType" id="cardType"> 
+                    <option value="americanexpress">AmericanExpress</option>
+                    <option value="capitalone">CapitalOne</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="visa">Visa</option>
+                </select><br><br>
+                <label class="bold" for="email">Email:</label>
+                <input type="text" id="email" placeholder="Type here" required><br><br>
+                <p class="bold">Select your preferred payment method:</p>
+                <input type="radio" id="credit" name="paymentMethod" value="Credit Card">
+                <label for="credit">Credit Card</label><br>
+                <input type="radio" id="crypto" name="paymentMethod" value="Cryptocurrency">
+                <label for="crypto">Cryptocurrency</label><br>
+                <input type="radio" id="debit" name="paymentMethod" value="Debit Card">
+                <label for="debit">Debit Card</label><br>
+                <p class="bold">Select pets owned:</p>
+                <input type="checkbox" id="cat" name="petCheck" value="Cat">
+                <label for="cat">Cat</label><br>
+                <input type="checkbox" id="dog" name="petCheck" value="Dog">
+                <label for="dog">Dog</label><br>
+                <input type="checkbox" id="fish" name="petCheck" value="Fish">
+                <label for="fish">Fish</label><br>
+                <input type="checkbox" id="horse" name="petCheck" value="Horse">
+                <label for="horse">Horse</label><br>
+                <input type="checkbox" id="other" name="petCheck" value="Other (Please specify below)">
+                <label for="other">Other (Please specify below)</label><br>
+                <input type="text" id="specify" placeholder="Specify here..."><br><br><br>
+                <input class="button-style" type="submit" size="15px" value="Submit">
+            </form>
+
+        </main>
+
+        <footer>
+            <br><br>
+            <nav>
+                <a href="https://webpages.uncc.edu/qsturner/" target="_blank">Charlotte.edu</a> &#9553;
+                <a href="https://github.com/qsturneruncc" target="_blank">Github</a> &#9553;
+                <a href="https://qsturneruncc.github.io/" target="_blank">Github.io</a> &#9553;
+                <a href="https://linkedin.com/in/quentinsturner/" target="_blank">LinkedIn</a> &#9553;
+            </nav>
+            <br>
+            <a href="https://validator.w3.org/check?uri=referer">HTML validator</a> <br>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS validator</a>
+        </footer>
+
+    </body>
+
+</html>

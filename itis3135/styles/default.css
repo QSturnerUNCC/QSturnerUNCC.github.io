@@ -86,3 +86,27 @@ tbody tr:nth-child(odd) td {
 {
     text-align: center;
 }
+
+
+label, input{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold 
+{
+    font-weight: bold;
+}
+
+.button-style
+{
+    background-color: #1b4332;
+    color: #cccccc;
+    height: 30px;
+    width: 100px;
+}
+
+.button-style:hover
+{
+    background-color: #74c69d;
+    color: #1b4332;
+}
