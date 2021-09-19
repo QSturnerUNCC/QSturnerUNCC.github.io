@@ -1,0 +1,20 @@
+body {
+    background-image: url("/Users/quentinsturner/Documents/itis3135_work/QSturnerUNCC.github.io/itis3135/stuff/trolllll lol");
+    background-repeat: round;
+    border: 40px double firebrick;
+}
+
+
+div 
+{
+    margin: auto;
+    width: 50%;
+    border: 50px;
+    border-color: black;
+    border-top: ridge;
+    border-bottom: double;
+    border-left: darkgreen;
+    border-right: groove;
+    padding: 10px;
+}
+
