@@ -22,7 +22,7 @@ h1, h2, h3
 
 a 
 {
-    text-decoration: none;
+    text-decoration: underline;
     color: #081c15;
     font-weight: bold;
 }
@@ -108,6 +108,22 @@ label, input{
     color: #cccccc;
     height: 30px;
     width: 100px;
+    margin: auto;
+}
+
+.button-style-long
+{
+    background-color: #1b4332;
+    color: #cccccc;
+    height: 35px;
+    width: 100px;
+    margin: auto;
+}
+
+.button-style-long:hover
+{
+    background-color: #74c69d;
+    color: #1b4332;
 }
 
 .button-style:hover
@@ -116,4 +132,11 @@ label, input{
     color: #1b4332;
 }
 
+.left-align {
+    text-align: left;
+}
 
+.justify-align
+{
+    text-align: justify;
+}
