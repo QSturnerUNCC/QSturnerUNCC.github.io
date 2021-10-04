@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles/default.css" rel="stylesheet" type="text/css">
+        <script src="scripts/calculator_try.js"></script>
+        <title>DIY Calculator</title>
+    </head>
+    <body>
+        <header>
+            <h1>Quentin Sturner || ITIS-3135</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                ||
+                <a href="introduction.html">Introduction</a>
+                ||
+                <a href="tables.html">Tables Sample</a>
+                ||
+                <a href="forms.html">Forms Sample</a>
+                ||
+                <a href="/stuff/rEaLlY%20cOoL%20wEbPaGe!%20死.htm">Bad Design</a>
+                ||
+                <a href="brand-quintessential-samoyed.html">Brand</a>
+                ||
+                <a href="scripts.html">Scripts</a>
+                ||
+                <a href="name_the_polygon.html">Name The Polygon</a>
+            </nav>
+            <br><br>
+        </header>
+
+        <main>
+            <h2>DIY Calculator</h2>
+
+            <br>
+            <div class="calculator_background">
+                <textarea id="display" class="calculator_display" name="calculator_display" disabled>
+
+                </textarea>
+                <button id="seven" class="calculator_number" onclick="enterSeven()">7</button>
+                <button id="eight" class="calculator_number" onclick="enterEight()">8</button>
+                <button id="nine" class="calculator_number" onclick="enterNine()">9</button>
+                <button id="positve-or-negative" class="calculator_pos_or_neg" onclick="makeNegativeOrPositive()">+/-</button>
+                <button id="delete" class="calculator_del">Del</button>
+                <script>document.getElementById("delete").addEventListener("click", deleteCalculator)</script>
+                <button id="four" class="calculator_number" onclick="enterFour()">4</button>
+                <button id="five" class="calculator_number" onclick="enterFive()">5</button>
+                <button id="six" class="calculator_number" onclick="enterSix()">6</button>
+                <button id="multiplication" class="calculator_multiplication">x</button>
+                <script>document.getElementById("multiplication").addEventListener("click", enterMultiplication)</script>
+                <button id="division" class="calculator_division">÷</button>
+                <script>document.getElementById("division").addEventListener("click", enterDivision)</script>
+                <button id="one" class="calculator_number" onclick="enterOne()">1</button>
+                <button id="two" class="calculator_number" onclick="enterTwo()">2</button>
+                <button id="three" class="calculator_number" onclick="enterThree()">3</button>
+                <button id="subtraction" class="calculator_subtraction">-</button>
+                <script>document.getElementById("subtraction").addEventListener("click", enterSubtraction)</script>
+                <button id="equals" class="calculator_equals">=</button>
+                <script>document.getElementById("equals").addEventListener("click", enterEquals)</script>
+                <button id="clear" class="calculator_clear">C</button>
+                <script>document.getElementById("clear").addEventListener("click", clearCalculator)</script>
+                <button id="zero" class="calculator_number" onclick="enterZero()">0</button>
+                <button id="decimal" class="calculator_decimal">.</button>
+                <script>document.getElementById("decimal").addEventListener("click", enterDecimal)</script>
+                <button id="addition" class="calculator_addition">+</button>
+                <script>document.getElementById("addition").addEventListener("click", enterAddition)</script>
+            </div>
+        </main>
+
+        <footer>
+            <br><br>
+            <nav>
+                <a href="https://webpages.uncc.edu/qsturner/" target="_blank">Charlotte.edu</a> &#9553;
+                <a href="https://github.com/qsturneruncc" target="_blank">Github</a> &#9553;
+                <a href="https://qsturneruncc.github.io/" target="_blank">Github.io</a> &#9553;
+                <a href="https://linkedin.com/in/quentinsturner/" target="_blank">LinkedIn</a> &#9553;
+                <a href="https://freecodecamp.org/qsturner" target="_blank">FreeCodeCamp</a>
+            </nav>
+            <br>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+            </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+            </a>
+        </footer>
+    </body>
+</html>
