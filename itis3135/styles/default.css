@@ -148,7 +148,7 @@ label, input{
     display: grid;
     background: lightgray;
     grid-template-columns: 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px, 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
 }
