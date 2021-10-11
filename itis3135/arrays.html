@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles/default.css" rel="stylesheet" type="text/css">
+        <script src="scripts/arrays.js"></script>"
+        <title>Arrays</title>
+    </head>
+    <body>
+        <header>
+            <h1>Quentin Sturner ITIS-3135</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                ||
+                <a href="introduction.html">Introduction</a>
+                ||
+                <a href="tables.html">Tables Sample</a>
+                ||
+                <a href="forms.html">Forms Sample</a>
+                ||
+                <a href="/stuff/rEaLlY%20cOoL%20wEbPaGe!%20死.htm">Bad Design</a>
+                ||
+                <a href="brand-quintessential-samoyed.html">Brand</a>
+                ||
+                <a href="scripts.html">Scripts</a>
+                ||
+                <a href="name_the_polygon.html">Name The Polygon</a>
+                ||
+                <a href="calculator_try.html">DIY Calculator</a>
+            </nav>
+            <br><br>
+        </header>
+
+        <main>
+
+            <script>
+                window.onLoad = function() {
+                    document.getElementById("employees").focus();
+                };
+            </script>
+                <form>
+                    <label for="employees">Select an employee:</label>
+
+                    <select name="employees" id="employees">
+                        <option value="barryAllen">Barry Allen</option>
+                        <option value="bruceWayne">Bruce Wayne</option>
+                        <option value="dianaPrince">Diana Prince</option>
+                        <option value="victorStone">Victor Stone</option>
+                        <option value="clarkKent">Clark Kent</option>
+                        <option value="arthurCurry">Arthur Curry</option>
+                        <option value="halJordan">Hal Jordan</option>
+                        <option value="jonnJonzz">J’onn J’onzz</option>
+                        <option value="shieraSandersHall">Shiera Sanders Hall</option>
+                    </select>
+                </form>
+
+            <br>
+            
+                <button name="addSalary" class="button-style-long" onclick="addSalary()">Add<br>Salary</button>
+                <button name="displayResults" class="button-style-long" onclick="displayResults()">Display Results</button>
+                <button name="displaySalary" class="button-style-long" onclick="displaySalary()">Display Salary</button>
+
+            <section id="results"></section>
+
+            <section id="salaryTableSection">
+                <table id="results_table">
+                    <thead id="results_table_head"></thead>
+                    <tbody id="results_table_body"></tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <br><br>
+            <nav>
+                <a href="https://webpages.uncc.edu/qsturner/" target="_blank">Charlotte.edu</a> &#9553;
+                <a href="https://github.com/qsturneruncc" target="_blank">Github</a> &#9553;
+                <a href="https://qsturneruncc.github.io/" target="_blank">Github.io</a> &#9553;
+                <a href="https://linkedin.com/in/quentinsturner/" target="_blank">LinkedIn</a> &#9553;
+                <a href="https://freecodecamp.org/qsturner" target="_blank">FreeCodeCamp</a>
+            </nav>
+            <br>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+            </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+            </a>
+        </footer>
+    </body>
+</html>
