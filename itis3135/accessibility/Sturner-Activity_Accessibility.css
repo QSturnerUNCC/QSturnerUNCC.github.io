@@ -27,6 +27,11 @@ body {
   text-align: center;
 }
 
+a
+{
+  color: aliceblue;
+}
+
 /* table format*/
 td,
 th {
@@ -45,7 +50,7 @@ th {
   text-align: left;
   background-color:#262626;
  
-  color:black;
+  color: powderblue;
 }
 
 table.center {
@@ -68,12 +73,17 @@ footer {
   bottom: 0;
   right: 0;
   padding-right: 70px;
- 
 }
 
 abbr {
   text-decoration: none;
 
+}
+
+img 
+{
+  width: 7rem;
+  height: 5rem;
 }
 
 /* whitespace */
@@ -92,4 +102,32 @@ abbr {
   cursor: pointer;
 }
 
+.submit
+{
+  background-color: #262626;
+  color: powderblue;
+}
 
+.form-section
+{
+  width: 50%;
+  transform: translate(50%);
+  background-color:rgb(38, 38, 38, 0.7);
+}
+
+.form-header
+{
+  color: powderblue;
+}
+
+.name-text,
+.number-text
+{
+  color: powderblue;
+}
+
+.validator-button
+{
+  height: auto;
+  width: auto;
+}

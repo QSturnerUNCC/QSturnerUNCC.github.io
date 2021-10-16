@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="Sturner-Activity_Accessibility.css">
+  <title>Test For Accessibility</title>
+
+</head>
+
+<body>
+  <header>
+    <h1>Candle Delight</h1>
+  </header>
+  <main>
+
+    <table class="center">
+
+      <caption>Candles</caption>
+      <thead>
+        <tr>
+          <!-- identify table headers <th> with scope attribute -->
+          <th scope="col">TYPE</th>
+          <th scope="col">PRODUCT</th>
+          <th scope="col">FEATURES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Birthday Candles</th>
+          <td><img alt="Birthday Candles Image" src="images/Birthday-Candles.jpg"/></td>
+          <td>
+            <ol>
+              <li>Comes in a range of fun, vibrant colors</li>
+              <li>Small and slender forms allow you to add as many or as few of them to a dessert as you desire</li>
+              <li>Offers a way to personalize customers' desserts on birthdays and anniversaries</li>
+            </ol>
+          </td>   
+        </td>
+        </tr>
+        <tr>
+            <th scope="row">Votives</th>
+            <td><img alt="Votives Image" src="images/voltives.jpeg"/></td>
+            <td>
+              <ol>
+                <li>Inexpensive and easy to use</li>
+                <li>Bigger than tea lights to provide longer burn times, making them better for longer events</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+              <th scope="row">Taper Candles</th>
+              <td><img alt="Taper Candles Image" src="images/taper-candles.jpg"/></td>
+              <td>
+                <ol>
+                  <li>Commonly known as window candles</li>
+                  <li>Long, slender constructions add dimensionto table tops</li>
+                </ol>
+              </td>
+            </tr>
+      </tbody>
+    </table>
+     <!--Add the form here-->
+    <section class="form-section">
+      <h2 class="form-header">Enter your name and phone number to win a gift!</h2>
+      <form action="#">
+        <label class="name-text" for="name">Name:</label>
+        <input id="name" type="text" autocomplete="name">
+        <label class="number-text" for="phone-number">Phone Number:</label>
+        <input id="phone-number" type="tel" pattern="[0-9]{3}-[0-9]{3)-[0-9]{4}" aria-required="true">
+        <input class="submit" type="submit" name="submit" value="Submit">
+      </form>
+    </section>
+   
+    <div class="whitespace"></div>
+    <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
+    <div class="whitespace"></div>
+
+    <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
+      color and background color passes WCAG standard!</a>
+  </main>
+
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+      <img class="validator-button" src="../images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+    </a>
+
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+      <img class="validator-button" src="../images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+    </a>
+  </footer>
+
+</body>
+
+</html>
