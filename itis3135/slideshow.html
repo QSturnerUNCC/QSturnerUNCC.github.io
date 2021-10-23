@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles/default.css" rel="stylesheet" type="text/css">
+        <link href="styles/jquery.bxslider.min.css" rel="stylesheet" type="text/css">
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="scripts/jquery.bxslider.min.js"></script>
+        <title>Slideshow</title>
+    </head>
+    <body>
+        <header>
+            <h1>Quentin Sturner || ITIS-3135</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                ||
+                <a href="introduction.html">Introduction</a>
+                ||
+                <a href="tables.html">Tables Sample</a>
+                ||
+                <a href="forms.html">Forms Sample</a>
+                ||
+                <a href="/stuff/rEaLlY%20cOoL%20wEbPaGe!%20死.htm">Bad Design</a>
+                ||
+                <a href="brand-quintessential-samoyed.html">Brand</a>
+                ||
+                <a href="scripts.html">Scripts</a>
+                ||
+                <a href="name_the_polygon.html">Name The Polygon</a>
+                ||
+                <a href="calculator_try.html">DIY Calculator</a>
+                || 
+                <a href="arrays.html">Arrays</a>
+                ||
+                <a href="project_rand.html">Project Assignment 1</a>
+            </nav>
+            <br><br>
+        </header>
+
+        <main>
+            <h2 class="left-align">JQuery Slideshow</h2>
+
+            <section class="slider">
+                <div><img src="images/cowboy-bebop.jpeg" alt="Cowboy Bebop image" title="" /></div>
+                <div><img src="images/fullmetal-alchemist.jpeg" alt="Fullmetal Alchemist image" title="" /></div>
+                <div><img src="images/ng-evangelion.png" alt="Neon Genesis Evangelion image" title="Neon Genesis Evangelion" /></div>
+                <div><img src="images/demon-slayer.jpg" alt="Demon Slayer image" title="Demon Slayer" /></div>
+                <div><img src="images/sword-art-online.jpeg" alt="Sword Art Online image" title="Sword Art Online" /></div>
+            </section>
+
+            <script>
+                $(document).ready(function() {
+                    $(".slider").bxSlider({
+                        auto: true,
+                        autocontrols: true,
+                        stopAutoOnClick: true,
+                        captions: true,
+                        pager: true,
+                        slideWidth: 600,
+                        preloadImages: "all"
+                    });
+                });
+            </script>
+        </main>
+
+        <footer>
+            <br><br>
+            <nav>
+                <a href="https://webpages.uncc.edu/qsturner/" target="_blank">Charlotte.edu</a> &#9553;
+                <a href="https://github.com/qsturneruncc" target="_blank">Github</a> &#9553;
+                <a href="https://qsturneruncc.github.io/" target="_blank">Github.io</a> &#9553;
+                <a href="https://linkedin.com/in/quentinsturner/" target="_blank">LinkedIn</a> &#9553;
+                <a href="https://freecodecamp.org/qsturner" target="_blank">FreeCodeCamp</a>
+            </nav>
+            <br>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+            </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+            </a>
+        </footer>
+
+    </body>
+
+</html>
