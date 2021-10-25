@@ -43,9 +43,24 @@ nav
     text-align: center;
 }
 
-.main-nav {
+.main-nav 
+{
+    border-radius: 10px;
+    padding: 15px;
     font-weight: bold;
     font-size: larger;
+    background-color: #40916c;
+    color: lightgray;
+}
+
+.main-nav-link
+{
+    color: white;
+}
+
+.main-nav-link:hover
+{
+    color: lightgray;
 }
 
 .table-body 
