@@ -5,6 +5,8 @@ body
     background-color: #d8f3dc;
     margin-left: 75px;
     margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 header, footer, figure
@@ -31,6 +33,11 @@ a:hover
 {
     text-decoration: underline;
     color: #2d6a4f;
+}
+
+.tab 
+{
+    margin-left: 30px;
 }
 
 figcaption
