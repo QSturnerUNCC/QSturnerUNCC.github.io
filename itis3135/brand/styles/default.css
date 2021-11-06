@@ -3,10 +3,9 @@ header
     background-color: #587B7F;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    padding-top: 30px;
+    width: 100%;
 }
+
 
 body 
 {
@@ -30,7 +29,9 @@ h1
 }
 
 h2, 
-h3, 
+h3,
+h4,
+h5,
 p, 
 div, 
 li
@@ -57,10 +58,203 @@ li
 .footer
 {
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
     background-color: #E2C044;
-    padding-bottom: 30px;
+}
+
+.video-editing 
+{
+    background-image: url("../images/video-editing.png");
+    color: lightgray;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.main-heading
+{
+    font-size: 24pt;
+}
+
+.big-heading
+{
+    font-size: 20pt;
+}
+
+.mini-logo
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+    padding-bottom: -4px;
+    padding-inline-start: 4px;
+}
+
+.order-button-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-button-1
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: lightgray;
+    font-weight: bold;
+    font-size: 12pt;
+    border: 2px solid lightgray;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.order-button-1:hover
+{
+    border: 2px solid white;
+    color: white;
+}
+
+.order-button:active
+{
+    border: 2px solid gray;
+    color: gray;
+}
+
+.skill-list
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.picture-editing 
+{
+    background-image: url("../images/blurred-picture-editing-SodaPDF.jpg");
+    color: lightgray;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.order-button-2
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-weight: bold;
+    font-size: 12pt;
+    border: 2px solid black;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.order-button-2:hover
+{
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.order-button-2:active
+{
+    border: 2px solid gray;
+    color: gray;
+}
+
+.picture-editing-list
+{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.computer-building
+{
+    background-image: url("../images/blurred-pc-building.jpg");
+    color: white;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.order-button-3
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    border: 2px solid white;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.order-button-3:hover
+{
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+.order-button-3:active
+{
+    border: 2px solid gray;
+    color: gray;
+}
+
+.prebuilt-button
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    border: 2px solid white;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.prebuilt-button:hover
+{
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+.prebuilt-button:active
+{
+    border: 2px solid gray;
+    color: gray;
+}
+
+.form 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+.form-submit
+{
+    background-color: #587B7F;
+    color: white;
+    margin-left: 160px;
+    height: 30px;
+    width: 60px;
+}
+
+.form-submit:hover 
+{
+    background-color: darkgray;
 }
