@@ -35,6 +35,17 @@ nav
     text-align: center;
 }
 
+a
+{
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited
+{
+    color: white;
+}
+
 .first
 {
     padding-top: 100px;
