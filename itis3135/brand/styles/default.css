@@ -1,12 +1,3 @@
-header
-{
-    background-color: #587B7F;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-
 body 
 {
     background-color: #D3D0CB;
@@ -39,6 +30,11 @@ li
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
 }
 
+nav 
+{
+    text-align: center;
+}
+
 .first
 {
     padding-top: 100px;
@@ -53,15 +49,6 @@ li
 .center
 {
     text-align: center;
-}
-
-.footer
-{
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #E2C044;
 }
 
 .video-editing 
