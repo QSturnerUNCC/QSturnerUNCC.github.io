@@ -39,11 +39,6 @@ h4
     font-size: 18pt;
 }
 
-.header
-{
-    position: fixed;
-}
-
 .footer
 {
     text-align: center;
@@ -51,6 +46,28 @@ h4
     background: border-box;
     padding-bottom: 15px; 
     padding-top: 15px;
+}
+
+.navbar
+{
+    display: grid;
+    grid-template-columns: 20% 60% 10% 10%;
+    justify-content: center;
+    align-content: center;
+}
+
+#dropdown
+{
+    width: 10%;
+    height: 190px;
+}
+
+#dropdown a
+{
+    font-size: 15pt;
+    color: #4B88A2;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .bx-wrapper, .bx-window 
