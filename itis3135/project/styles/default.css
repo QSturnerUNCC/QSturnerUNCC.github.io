@@ -1,0 +1,328 @@
+body
+{
+    background-color: #FFF9FB;
+    color: #252627;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+figure
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 34pt;
+}
+
+h2
+{
+    font-size: 28pt;
+}
+
+p
+{
+    font-size: 15pt;
+}
+
+h3
+{
+    font-size: 20pt;
+}
+
+h4
+{
+    font-size: 18pt;
+}
+
+.header
+{
+    position: fixed;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #D3D4D9;
+    background: border-box;
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}
+
+.bx-wrapper, .bx-window 
+{
+    margin:0 auto; width:940px !important;
+}
+
+.pager
+{
+    width:940px !important; 
+}
+
+#slider1 li
+{
+    margin-left:0px !important;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.first
+{
+    display: grid;
+    background-color: #4B88A2;
+    border-radius: 15px;
+    grid-template-columns: 350px 350px 350px;
+    align-content: center;
+    justify-content: center;
+}
+
+.phone
+{
+    padding: 50px;
+}
+
+.email
+{
+    padding: 50px;
+}
+
+.social-media
+{
+    padding: 50px;
+}
+
+hr.underline
+{
+    border: 2px solid black;
+}
+
+.twitter
+{
+    height: 20%;
+    width: 20%;
+    transform: translateY(15px);
+}
+
+.instagram
+{
+    height: 20%;
+    width: 20%;
+    transform: translateY(15px);
+}
+
+.username
+{
+    color: black;
+    margin-left: 10px;
+}
+
+#left-arrow img
+{
+    width: 20px;
+    height: 20px
+}
+
+#right-arrow img
+{
+    width: 20px;
+    height: 20px;
+}
+
+#image-display-panel
+{
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    height: 125px;
+}
+
+#image-list
+{
+    position: relative;
+    left: 0px;
+    width: 300px;
+    list-style: none;
+}
+
+#image-list li
+{
+    float: left;
+    width: 100px;
+}
+
+#image-list li img
+{
+    width: 95px;
+}
+
+.product-grid
+{
+    background-color: #D3D4D9;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px;
+    margin: 50px;
+    padding-bottom: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+.product-link
+{
+    color: #252627;
+    text-decoration: none;
+}
+
+.product-link:hover
+{
+    color: gray;
+}
+
+.product-link:active
+{
+    color: white;
+}
+
+.account-container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sign-in-form
+{
+    margin: 50px;
+    margin-left: 25%;
+    align-self: center;
+    text-align: justify;
+}
+
+#submit-button
+{
+    background-color: #BB0A21;
+    color: #D3D4D9;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#email, 
+#password
+{
+    height: 25px;
+    width: 280px;
+    font-size: 13pt;
+}
+
+#remember-login
+{
+    -ms-transform: scale(1.2); /* IE */
+    -moz-transform: scale(1.2); /* FF */
+    -webkit-transform: scale(1.2); /* Safari and Chrome */
+    -o-transform: scale(1.2); /* Opera */
+    transform: scale(1.2);
+}
+
+#create-account-button
+{
+    background-color: #BB0A21;
+    color: #D3D4D9;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.default-link
+{
+    color: #4B88A2;
+}
+
+.about-company
+{
+    padding-bottom: 10px;
+}
+
+.quote-container 
+{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.quote
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px ridge #4B88A2;
+    color: #252627;
+    text-align: center;
+    font-family: cursive;
+    font-size: 35pt;
+}
+
+.about-us-text-first
+{
+    font-size: 15pt; 
+    margin-right: 70px; 
+    margin-left: 70px;
+}
+
+
+.about-us-text
+{
+    font-size: 15pt; 
+    margin-right: 70px; 
+    margin-left: 70px;
+    margin-top: 105px;
+    padding-bottom: 95px;
+}
+
+.image-wrap
+{
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 75px;
+    margin-right: 20px;
+}
+
+.about-people
+{
+    font-size: 15pt; 
+    margin-right: 70px; 
+    margin-left: 70px;
+}
+
+.andersen-section-container,
+.shawn-section-container
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.anderson-picture-container
+{
+    margin-right: 40px;
+}
+
+.andersen-image
+{
+    width: 70%;
+    height: 70%;
+}
+
+.shawn-image
+{
+    width: 70%;
+    height: 70%;
+}
