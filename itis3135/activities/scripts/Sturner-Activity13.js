@@ -11,14 +11,17 @@ $(document).ready(function() {
         },
         dataType: "json",
         success: function(data) {
-            $("#team").html("");
-            $(data).find("management").children().each(function() {
-                var jsonDoc = $(this);
-                $("#team").append
-                ("<h3>" + jsonDoc.find("name").text() + "</h3>" +
-                          jsonDoc.find("title").text() + "<br>" +
-                          jsonDoc.find("bio").text() + "<br>");
+            $("team").html("");
+            $.each(data, function() {
+                $.each(this, function(key, value) {
+                    $("#team").append(
+                        "<h3>" + value.name + "</h3>" +
+                        value.title + "<br>" +
+                        value.bio + "<br>"
+                    );
+                });
             });
+            
         }
     });
 });
