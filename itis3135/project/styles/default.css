@@ -9,11 +9,6 @@ body
     margin-bottom: 60px;
 }
 
-header 
-{
-    background-color: #B3BABD;
-}
-
 footer 
 {
     text-align: center;
@@ -55,6 +50,7 @@ h4
 
 .navbar
 {
+    background-color: #B3BABD;
     display: grid;
     grid-template-columns: 20% 60% 10% 10%;
     justify-content: center;
