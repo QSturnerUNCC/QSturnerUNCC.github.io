@@ -9,6 +9,11 @@ body
     margin-bottom: 60px;
 }
 
+header 
+{
+    background-color: #B3BABD;
+}
+
 footer 
 {
     text-align: center;
