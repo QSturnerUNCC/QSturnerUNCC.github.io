@@ -3,25 +3,27 @@
     <script src="scripts/jquery-3.6.0.js"></script>
 </head>
 
-<div>
-    <a id="menu" href="#">
-        <img src="images/menu-icon.png" alt="Menu" style="height: 40px; width: 40px; display: block; margin-left: 15%; margin-right: 85%; margin-top: 50px; margin-bottom: 50px;">
-    </a>
-</div>
-<div>
-    <a href="index.html" style="text-decoration: none; color: #252627;">
-        <h1 class="center">P.H.A.T. Tags</h1>
-    </a>
-</div>
-<div>
-    <a href="#">
-        <img src="images/magnifying-glass-icon.png" alt="Cart" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
-    </a>
-</div>
-<div>
-    <a href="#">
-        <img src="images/shopping-cart-icon.png" alt="Search" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
-    </a>
+<div class="navbar">
+    <div>
+        <a id="menu" href="#">
+            <img src="images/menu-icon.png" alt="Menu" style="height: 40px; width: 40px; display: block; margin-left: 15%; margin-right: 85%; margin-top: 50px; margin-bottom: 50px;">
+        </a>
+    </div>
+    <div>
+        <a href="index.html" style="text-decoration: none; color: #252627;">
+            <h1 class="center">P.H.A.T. Tags</h1>
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <img src="images/magnifying-glass-icon.png" alt="Cart" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <img src="images/shopping-cart-icon.png" alt="Search" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
+        </a>
+    </div>
 </div>
 
 <div id="dropdown">
@@ -33,11 +35,18 @@
 </div>
 
 <script>
-    $(document).ready(function() {
-        $("#dropdown").fadeOut(500);
-
-        document.getElementById("menu").addEventListener("click", function() {
-            $("#dropdown").fadeToggle(1000);
+    $(document).ready(function() 
+    {
+        document.getElementById("menu").addEventListener("click", function() 
+        {
+            if ($("#dropdown").first().is( ":hidden")) 
+            {
+                $("#dropdown").slideDown(300);
+            } 
+            else 
+            {
+                $("#dropdown").slideUp(300);
+            }
         });
     });
 </script>
