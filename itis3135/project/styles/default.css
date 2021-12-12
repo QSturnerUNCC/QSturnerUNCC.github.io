@@ -409,6 +409,16 @@ hr.underline
     height: 70%;
 }
 
+.about_andersen
+{
+    margin-top: 20px;
+}
+
+.about_shawn
+{
+    margin-top: 20px;
+}
+
 #cartContainer
 {
     border: #000000 2px dotted;
