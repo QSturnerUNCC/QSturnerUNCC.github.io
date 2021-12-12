@@ -74,10 +74,10 @@ h4
     display: none;
     background-color: #B3BABD;
     width: 10%;
-    height: 190px;
+    height: 155px;
     padding-left: 50px;
     padding-right: 10px;
-    padding-bottom: 18px;
+    padding-bottom: 5px;
 }
 
 #dropdown a
@@ -241,87 +241,6 @@ hr.underline
     color: white;
 }
 
-.account-container
-{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.sign-in-form
-{
-    margin: 50px;
-    margin-left: 25%;
-    align-self: center;
-    text-align: justify;
-}
-
-#submit-button
-{
-    background-color: #F7B05B;
-    color: #000009;
-    padding: 5px;
-    width: 80px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-#email, 
-#password,
-#name
-{
-    height: 25px;
-    width: 280px;
-    font-size: 13pt;
-}
-
-#remember-login,
-#emailList
-{
-    -ms-transform: scale(1.2); /* IE */
-    -moz-transform: scale(1.2); /* FF */
-    -webkit-transform: scale(1.2); /* Safari and Chrome */
-    -o-transform: scale(1.2); /* Opera */
-    transform: scale(1.2);
-}
-
-#create-account-button
-{
-    background-color: #F7B05B;
-    color: #000009;
-    padding: 5px;
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-.create-account-form
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-
-.create-account-div
-{
-    padding-bottom: 13px;
-}
-
-.create-account-button
-{
-    padding-top: 5px;
-}
-
-#signUpButton
-{
-    background-color: #F7B05B;
-    color: #000009;
-    padding: 5px;
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-}
 
 .default-link
 {
