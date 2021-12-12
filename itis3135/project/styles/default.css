@@ -88,6 +88,22 @@ h4
     font-weight: bold;
 }
 
+#searchbar
+{
+    display: none;
+    margin-top: 50px;
+}
+
+#textbar
+{
+    width: 70px;
+}
+
+i
+{
+    height: fit-content;
+}
+
 .bx-wrapper, .bx-window 
 {
     margin:0 auto; width:940px !important;
@@ -364,5 +380,14 @@ hr.underline
 
 #cartContainer
 {
-    background-color: #000000;
+    border: #000000 2px dotted;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding: 50px;
+}
+
+.cart-text
+{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5)
 }

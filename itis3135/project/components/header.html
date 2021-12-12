@@ -1,5 +1,6 @@
 <head>
     <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
     <script src="scripts/jquery-3.6.0.js"></script>
 </head>
 
@@ -15,13 +16,19 @@
         </a>
     </div>
     <div>
-        <a href="#">
-            <img src="images/magnifying-glass-icon.png" alt="Cart" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
+        <a id="search" href="#">
+            <img src="images/magnifying-glass-icon.png" alt="Search" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
         </a>
+        <div id="searchbar">
+            <input id="textbar" type="text" placeholder="Search...">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
     </div>
     <div>
-        <a href="#">
-            <img src="images/shopping-cart-icon.png" alt="Search" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
+        <a href="cart.html">
+            <img src="images/shopping-cart-icon.png" alt="Cart" style="height: 30px; width: 30px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
         </a>
     </div>
 </div>
@@ -37,7 +44,7 @@
 <script>
     $(document).ready(function() 
     {
-        document.getElementById("menu").addEventListener("click", function() 
+        $("#menu").click(function() 
         {
             if ($("#dropdown").first().is( ":hidden")) 
             {
@@ -46,6 +53,23 @@
             else 
             {
                 $("#dropdown").slideUp(300);
+            }
+        });
+
+        $("#search").click(function() 
+        {
+            if ($("#searchbar").is(":hidden"))
+            {
+                $("#search").hide(300, function() 
+                {
+                    $("#searchbar").fadeIn(300);
+                });
+            }
+            else
+            {
+                $("#searchbar").hide(300, function() {
+                    $("#search").show(300);
+                });
             }
         });
     });
