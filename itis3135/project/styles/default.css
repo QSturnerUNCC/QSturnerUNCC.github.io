@@ -257,8 +257,8 @@ hr.underline
 
 #submit-button
 {
-    background-color: #BB0A21;
-    color: #D3D4D9;
+    background-color: #F7B05B;
+    color: #000009;
     padding: 5px;
     width: 80px;
     height: 30px;
@@ -266,14 +266,16 @@ hr.underline
 }
 
 #email, 
-#password
+#password,
+#name
 {
     height: 25px;
     width: 280px;
     font-size: 13pt;
 }
 
-#remember-login
+#remember-login,
+#emailList
 {
     -ms-transform: scale(1.2); /* IE */
     -moz-transform: scale(1.2); /* FF */
@@ -284,15 +286,42 @@ hr.underline
 
 #create-account-button
 {
-    background-color: #BB0A21;
-    color: #D3D4D9;
+    background-color: #F7B05B;
+    color: #000009;
     padding: 5px;
     width: 150px;
     height: 30px;
     border-radius: 5px;
 }
 
-#createAccountContainer
+.create-account-form
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.create-account-div
+{
+    padding-bottom: 13px;
+}
+
+.create-account-button
+{
+    padding-top: 5px;
+}
+
+#signUpButton
+{
+    background-color: #F7B05B;
+    color: #000009;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
 
 .default-link
 {
