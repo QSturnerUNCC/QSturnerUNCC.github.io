@@ -3,19 +3,44 @@
     <head>
         <meta charset="UTF-8">
         <link href="styles/default.css" rel="stylesheet" type="text/css">
+        <link href="styles/lightbox.css" rel="stylesheet" />
+        <script src="scripts/jquery-3.6.0.js"></script>
         <title>Specific Product</title>
     </head>
     <body>
         <header data-include="components/header.html"></header>
 
         <main>
+            <h2 class="center">Specific Product</h2>
 
+            <section aria-label="Product Information" id="product-info-container">
+                <div class="product-image" aria-label="Product Image">
+                    <img src="images/image-placeholder-square.png" alt="Image Placeholder" class="main-image">
+
+                    <div class="image-thumbnails" aria-label="Image Thumbnails">
+                        <a href="images/image-placeholder-square.png" data-lightbox="image-placeholder-thumbnail" data-title="Image Placeholder Thumbnail #1" data-alt="Image Placeholder #1"><img src="images/image-placeholder-square.png"></a>
+                        <a href="images/image-placeholder-square.png" data-lightbox="image-placeholder-thumbnail" data-title="Image Placeholder Thumbnail #2" data-alt="Image Placeholder Thumbnail #2"><img src="images/image-placeholder-square.png"></a>
+                    </div>
+                </div>
+                <div class="product-info" aria-label="Product Information">
+                    <h3 class="center">Product name</h3>
+                    <h4 class="center">$x.xx</h4>
+                    <p class="center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <button class="add-to-cart-button" type="submit" aria-label="Add To Cart Button"><b>Add To Cart</b></button>
+                </div>
+            </section>
         </main>
 
         <footer data-include="components/footer.html"></footer>
 
         <script src="scripts/HTMLInclude.min.js"></script>
+        <script src="scripts/lightbox.min.js"></script>
 
     </body>
-    
+
 </html>
